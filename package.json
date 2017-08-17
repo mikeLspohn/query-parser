@@ -1,0 +1,27 @@
+{
+  "name": "query-parser",
+  "version": "1.0.0",
+  "description": "parse query strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeLspohn/query-parser.git"
+  },
+  "keywords": [
+    "javascript",
+    "query",
+    "query-parser"
+  ],
+  "author": "michael spohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeLspohn/query-parser/issues"
+  },
+  "homepage": "https://github.com/mikeLspohn/query-parser#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
