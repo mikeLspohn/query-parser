@@ -1,11 +1,11 @@
-export const compose = (...fns) => param =>
+export const compose = (...fns) => param => 
   fns.reduceRight((acc, curr) => curr(acc), param)
 
-export const queryExtractor = (url = window.location.search) =>
+export const queryExtractor = (url) =>
   url.split('?').pop()
 
 // make array of query param strings
-export const queriesExtractor = (url = window.location.search) =>
+export const queriesExtractor = (url) =>
   url.split('?').pop().split('&')
 
 // transform 1 query string into js object
