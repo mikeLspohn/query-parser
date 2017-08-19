@@ -47,7 +47,7 @@ queriesExtractor('localhost:4000/hello?name=michael&age=2')
 
 
 
-###queryTransformer
+### queryTransformer
 
 `queryTransformer` transforms the query param given into a usable javascript object.
 
@@ -74,7 +74,7 @@ queryParser(['name=michael', 'age=26'])
 `getQueryParams` is the full function which takes a full url and spits out the query params as a normalized js object.
 
 ```javascript
-getQueryParams('localhost:4000/hello?name=michael%20spohn&age=26)
+getQueryParams('localhost:4000/hello?name=michael%20spohn&age=26')
 
 // returns {name: 'michael spohn', age: '26'}
 ```
