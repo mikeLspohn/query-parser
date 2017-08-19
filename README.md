@@ -2,15 +2,8 @@
 
 Utility functions to parser url string query parameters into usable javascript objects.
 
-# Why
-Mostly just because react-router v4 removes the `query` prop and you have to manually parse it out yourself.
-
-# Installation
-yarn add query-parser
 
 # Usage
-
-
 
 There are 5 methods available to use. 
 
