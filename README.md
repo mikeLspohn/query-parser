@@ -46,6 +46,7 @@ queriesExtractor('localhost:4000/hello?name=michael&age=2')
 ```
 
 
+
 ###queryTransformer
 
 `queryTransformer` transforms the query param given into a usable javascript object.
