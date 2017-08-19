@@ -1,7 +1,7 @@
 {
   "name": "query-parser",
   "version": "1.0.0",
-  "description": "parse query strings",
+  "description": "parse query strings into consumable javascript objects",
   "main": "index.js",
   "scripts": {
     "test": "ava test.js"
@@ -15,7 +15,7 @@
     "query",
     "query-parser"
   ],
-  "author": "michael spohn",
+  "author": "Michael Spohn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mikeLspohn/query-parser/issues"
