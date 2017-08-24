@@ -1,7 +1,4 @@
-# What
-
 Utility functions to parser url string query parameters into usable javascript objects.
-
 
 # Usage
 
